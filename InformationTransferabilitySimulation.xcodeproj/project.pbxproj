@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D78F3F52B8226FF005A8B27 /* CellParticle1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5D78F3F42B8226FF005A8B27 /* CellParticle1.sks */; };
+		5D78F3F72B8227E0005A8B27 /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78F3F62B8227E0005A8B27 /* ElementView.swift */; };
+		5D78F3FC2B8265D3005A8B27 /* ElementSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78F3FB2B8265D3005A8B27 /* ElementSliderView.swift */; };
+		5D78F3FE2B851628005A8B27 /* CustomTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78F3FD2B851628005A8B27 /* CustomTexts.swift */; };
+		5D78F4002B85F8F4005A8B27 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78F3FF2B85F8F4005A8B27 /* DrawView.swift */; };
 		5DA19B662B7F6383003DA5D3 /* InformationTransferabilitySimulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19B652B7F6383003DA5D3 /* InformationTransferabilitySimulationApp.swift */; };
 		5DA19B682B7F6383003DA5D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19B672B7F6383003DA5D3 /* ContentView.swift */; };
 		5DA19B6A2B7F6385003DA5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA19B692B7F6385003DA5D3 /* Assets.xcassets */; };
 		5DA19B6D2B7F6385003DA5D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA19B6C2B7F6385003DA5D3 /* Preview Assets.xcassets */; };
+		5DA19B742B7F6F4C003DA5D3 /* HumanImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19B732B7F6F4C003DA5D3 /* HumanImage.swift */; };
+		5DA19B762B80BEED003DA5D3 /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19B752B80BEED003DA5D3 /* viewModel.swift */; };
+		5DA19B782B80C5C6003DA5D3 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19B772B80C5C6003DA5D3 /* ChartView.swift */; };
+		5DA19B7A2B80C908003DA5D3 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA19B792B80C908003DA5D3 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D78F3F42B8226FF005A8B27 /* CellParticle1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CellParticle1.sks; sourceTree = "<group>"; };
+		5D78F3F62B8227E0005A8B27 /* ElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
+		5D78F3FB2B8265D3005A8B27 /* ElementSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementSliderView.swift; sourceTree = "<group>"; };
+		5D78F3FD2B851628005A8B27 /* CustomTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTexts.swift; sourceTree = "<group>"; };
+		5D78F3FF2B85F8F4005A8B27 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 		5DA19B622B7F6383003DA5D3 /* InformationTransferabilitySimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InformationTransferabilitySimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA19B652B7F6383003DA5D3 /* InformationTransferabilitySimulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTransferabilitySimulationApp.swift; sourceTree = "<group>"; };
 		5DA19B672B7F6383003DA5D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DA19B692B7F6385003DA5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA19B6C2B7F6385003DA5D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DA19B732B7F6F4C003DA5D3 /* HumanImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanImage.swift; sourceTree = "<group>"; };
+		5DA19B752B80BEED003DA5D3 /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
+		5DA19B772B80C5C6003DA5D3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		5DA19B792B80C908003DA5D3 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D78F3F82B8227E6005A8B27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DA19B652B7F6383003DA5D3 /* InformationTransferabilitySimulationApp.swift */,
+				5DA19B672B7F6383003DA5D3 /* ContentView.swift */,
+				5D78F3F62B8227E0005A8B27 /* ElementView.swift */,
+				5D78F3FB2B8265D3005A8B27 /* ElementSliderView.swift */,
+				5DA19B732B7F6F4C003DA5D3 /* HumanImage.swift */,
+				5DA19B772B80C5C6003DA5D3 /* ChartView.swift */,
+				5DA19B792B80C908003DA5D3 /* SliderView.swift */,
+				5D78F3FD2B851628005A8B27 /* CustomTexts.swift */,
+				5D78F3FF2B85F8F4005A8B27 /* DrawView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D78F3F92B8227FB005A8B27 /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				5D78F3F42B8226FF005A8B27 /* CellParticle1.sks */,
+			);
+			path = Particle;
+			sourceTree = "<group>";
+		};
+		5D78F3FA2B823B52005A8B27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5DA19B752B80BEED003DA5D3 /* viewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		5DA19B592B7F6383003DA5D3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +101,9 @@
 		5DA19B642B7F6383003DA5D3 /* InformationTransferabilitySimulation */ = {
 			isa = PBXGroup;
 			children = (
-				5DA19B652B7F6383003DA5D3 /* InformationTransferabilitySimulationApp.swift */,
-				5DA19B672B7F6383003DA5D3 /* ContentView.swift */,
+				5D78F3F92B8227FB005A8B27 /* Particle */,
+				5D78F3FA2B823B52005A8B27 /* ViewModel */,
+				5D78F3F82B8227E6005A8B27 /* Views */,
 				5DA19B692B7F6385003DA5D3 /* Assets.xcassets */,
 				5DA19B6B2B7F6385003DA5D3 /* Preview Content */,
 			);
@@ -126,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DA19B6D2B7F6385003DA5D3 /* Preview Assets.xcassets in Resources */,
+				5D78F3F52B8226FF005A8B27 /* CellParticle1.sks in Resources */,
 				5DA19B6A2B7F6385003DA5D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +191,14 @@
 			files = (
 				5DA19B682B7F6383003DA5D3 /* ContentView.swift in Sources */,
 				5DA19B662B7F6383003DA5D3 /* InformationTransferabilitySimulationApp.swift in Sources */,
+				5D78F3FC2B8265D3005A8B27 /* ElementSliderView.swift in Sources */,
+				5DA19B762B80BEED003DA5D3 /* viewModel.swift in Sources */,
+				5DA19B7A2B80C908003DA5D3 /* SliderView.swift in Sources */,
+				5DA19B782B80C5C6003DA5D3 /* ChartView.swift in Sources */,
+				5D78F4002B85F8F4005A8B27 /* DrawView.swift in Sources */,
+				5DA19B742B7F6F4C003DA5D3 /* HumanImage.swift in Sources */,
+				5D78F3F72B8227E0005A8B27 /* ElementView.swift in Sources */,
+				5D78F3FE2B851628005A8B27 /* CustomTexts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +347,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.tech.Hikaru.Honda.InformationTransferabilitySimulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -316,9 +378,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.tech.Hikaru.Honda.InformationTransferabilitySimulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
